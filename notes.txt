@@ -1,0 +1,8 @@
+RESOLVING CONFLICTING DECLARATIONS : Priority Order of selectors
+
+5 Declarations marked !important
+4 Inline style (style attribute in HTML)
+3 ID (#) selector
+2 Class (.) or pseudo-class (:) selector
+1 Element selector (p, div, li, etc.)
+0 Universal selector (*)

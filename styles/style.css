@@ -1,3 +1,47 @@
 body {
-  background-color: lightpink;
+  background-color: lightblue;
+}
+
+/* combining selectors */
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+h3 {
+  color: brown;
+}
+
+li {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Element selector (p, div, li, etc.) */
+p {
+  font-size: 25px;
+}
+
+/* Class (.) or pseudo-class (:) selector */
+.author {
+  font-style: italic;
+  font-size: 20px;
+}
+
+/* ID (#) selector */
+author-text {
+  font-size: 30px;
+}
+
+/* custom css for my-div */
+.my-div {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  background-color: white;
+  border-style: solid;
+  padding: 20px;
+  height: 25px;
+  width: 200px;
+  border-color: green;
+  color: black;
 }
